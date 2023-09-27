@@ -1,0 +1,3 @@
+10  is a positive number
+-540 is a negative  number
+0 is zero

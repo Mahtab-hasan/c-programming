@@ -1,0 +1,34 @@
+// #include <stdio.h>
+
+// // aita ekta function, ja duita integer value niye kaj kore
+// void add(int a, int b) 
+// {
+//     a = a + b; // a ar b jog kore, ar pora result a tey store kore
+//     printf("Majhe majhe add function er moddhe: %d\n", a); // result ta print kore
+// }
+
+// int main() 
+// {
+//     int x = 10, y = 5; // x ar y duita integer variable create kore, x tey 10, y tey 5 assign kore
+//     add(x, y); // add function ke call kore, x ar y ke parameter hisebe pass kore
+//     printf("Add function er baire: %d\n", x); // add function er baire, x er value print kore
+//     return 0;
+// }
+
+
+#include <stdio.h>
+
+// This is a function that takes two integer parameters and adds them together.
+void add(int a, int b) 
+{
+    a = a + b; // Add a and b together, and store the result in a
+    printf("Inside the add function: %d\n", a); // Print the result of the addition
+}
+
+int main() 
+{
+    int x = 10, y = 5; // Declare two integer variables, x and y, and initialize them with the values 10 and 5 respectively
+    add(x, y); // Call the add function with x and y as parameters
+    printf("Outside the add function: %d\n", x); // Print the value of x after the function call
+    return 0;
+}
